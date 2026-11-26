@@ -6,7 +6,8 @@ Example project for ILVO colleagues on working with Claude Code.
 
 | Path | What it is |
 |------|------------|
-| `data/fish_lengths.csv` | A tiny made-up dataset of fish lengths and weights |
+| `data/fish_lengths.csv` | A made-up dataset of 1000 fish lengths and weights |
+| `R/make_data.R` | Regenerates the made-up dataset (`Rscript R/make_data.R`) |
 | `R/analysis.R` | Summarises length/weight per species and makes a boxplot |
 | `CLAUDE.md` | Project instructions Claude reads automatically |
 | `output/` | Results (not tracked in git) |
